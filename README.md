@@ -17,6 +17,20 @@ You may also see any lint errors in the console.
 ## MoviefyXgpt
 - create-react-app
 - Configured Tailwindcss
+- Header
+- Routing
+- Login Form
+- Sign Up Form
+- Form Validation
+- UseRef Hook
+- Firebase setup
+- Deploying our app to production
+- Create signUp User Account
+- implement sign in user api
+- Create Redux Store with UserSlice
+- Implement Sign Out
+- Update Profile
+- Fetch from TMDB Movies Api
 
 # Features
 - Login/Sign Up
