@@ -31,6 +31,20 @@ You may also see any lint errors in the console.
 - Implement Sign Out
 - Update Profile
 - Fetch from TMDB Movies Api
+- Bugfix
+- Bugfix
+- Unsubscribed to the onAuthStateChange callBack
+- Add Hardcoded values into constant file
+- Register tmdb api 
+- get data from TMDB now playing movies list api
+- custom hook for now playing Movies
+- create movieSlice
+- update Store with movies Data
+- Planning for Maincontauiner and secondary container
+- fetch data for trailer video
+- update store with trailer video data
+- embedded the youtude video and make it autoplay and mute
+- tailwind classess to make main container look awesome
 
 # Features
 - Login/Sign Up
