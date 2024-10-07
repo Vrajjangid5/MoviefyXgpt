@@ -51,20 +51,28 @@ useEffect(()=>{
 
 
   return (
-    <div className="absolute px-8 py-2 bg-gradient-to-b from-black z-10 w-screen flex justify-between">
-        
-            <img  className="w-44"
-            src={LOGO}
-            alt="logo"/>
-        
-        {user && (<div className="flex p-2">
-          <img
-          className="w-10 h-12"
+    <div className="absolute px-8 py-2 bg-gradient-to-b from-black z-10 w-full flex justify-between items-center md:px-16 lg:px-24">
+    <img 
+      className="w-36 md:w-44 lg:w-52 transition-transform duration-300 transform hover:scale-105"
+      src={LOGO}
+      alt="logo"
+    />
+    {user && (
+      <div className="flex items-center p-2 space-x-4">
+        <img
+          className="w-10 h-10 rounded-full object-cover border-2 border-white"
           src={user?.photoURL}
-          alt="User"/>
-          <button onClick={handleSignOut} className="font-bold text-white">(Sign Out)</button>
-        </div>)}
-    </div>
+          alt="User"
+        />
+        <button 
+          onClick={handleSignOut} 
+          className="font-bold text-white px-4 py-2 bg-red-600 rounded-md hover:bg-red-500 transition-all">
+          Sign Out
+        </button>
+      </div>
+    )}
+  </div>
+  
   )
 }
 

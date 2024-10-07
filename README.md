@@ -45,6 +45,9 @@ You may also see any lint errors in the console.
 - update store with trailer video data
 - embedded the youtude video and make it autoplay and mute
 - tailwind classess to make main container look awesome
+- find tmdb img cdn
+- make custom hooks
+- take data from api for all list of movies
 
 # Features
 - Login/Sign Up
