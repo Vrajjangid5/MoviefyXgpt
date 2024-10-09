@@ -48,6 +48,9 @@ You may also see any lint errors in the console.
 - find tmdb img cdn
 - make custom hooks
 - take data from api for all list of movies
+- Gpt Search Feature
+- Gpt Search Bar
+- Multi-language feature in our app
 
 # Features
 - Login/Sign Up

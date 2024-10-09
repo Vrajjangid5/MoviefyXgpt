@@ -10,3 +10,8 @@ export const API_OPTIONS= {
   };
 
   export const IMG_CDN="https://image.tmdb.org/t/p/w400";
+
+
+
+  export const OPENAI_KEY="sk-proj-0NkVV3yeKVWMnVtOH2wzj1rV0UY674mRVnpqtGRwf0UMMcLp60eN_GCTceSH7fLzfIHx6dHzYFT3BlbkFJKvULY9B2f5WWfgiUaxXVKMT6R9KQ6F_Ntnb6szv91I0rS5q0Vto5hVALz3VSKtPbVog8sbAkEAAAA";
+  
