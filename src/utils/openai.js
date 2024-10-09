@@ -1,10 +1,14 @@
 import OpenAI from 'openai';
-import { OPENAI_KEY } from './constants';
+import {REACT_APP_OPENAI_KEY}  from "../key"
+const OPENAI_KEY = REACT_APP_OPENAI_KEY;
 
-const OPenAi = new OpenAI({
-  apiKey:OPENAI_KEY, // This is the default and can be omitted
+if (!OPENAI_KEY) {
+  throw new Error("Missing OPENAI_KEY environment variable");
+}
+
+const OpenAi = new OpenAI({
+  apiKey: OPENAI_KEY,
   dangerouslyAllowBrowser: true,
 });
 
-
-export default OPenAi;
+export default OpenAi;
