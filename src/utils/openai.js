@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import {REACT_APP_OPENAI_KEY}  from "../key"
+import {REACT_APP_OPENAI_KEY}  from "./key"
 const OPENAI_KEY = REACT_APP_OPENAI_KEY;
 
 if (!OPENAI_KEY) {
